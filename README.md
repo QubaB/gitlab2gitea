@@ -10,9 +10,10 @@ Run gitlab2gitea.py
 ## ToDo
 Code is designed to import issues in the order they are created to keep their number, but if some issue is deleted it will not porbably work. I did not implemented creation of "auxiliary" issues.
 
-Code is very dirty as I put it together with assistance of chatGPT
 
 ## References
+Code is dirty as I put it together with assistance of chatGPT
+
 In case of need look at API documentation, for example:
 - https://docs.gitea.com/api/1.20/#tag/issue/operation/issueListIssueAttachments
 - https://docs.gitea.com/api/1.20/#tag/issue/operation/issueListIssueCommentAttachments
